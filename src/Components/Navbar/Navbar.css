@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 4px;
+  box-shadow: 0 1px 3px -2px black;
+  background: #61b649a3;
+}
+.navbar-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 30%;
+}
+.navbar-name h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: rgb(242, 40, 0);
+
+}
+.nav-login-btn {
+  width: 150px;
+  height: 55px;
+  outline: none;
+  margin-top: 6%;
+  border: 1px solid #000000;
+  border-radius: 75px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 800;
+  background: rgb(242, 40, 0);
+  cursor: pointer;
+
+}
